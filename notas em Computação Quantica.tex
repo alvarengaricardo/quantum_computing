@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} % Pacote para acentuação gráfica
+%\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel} % nomes das estruturas em pt-br
+%\usepackage{hyperref}
+\usepackage{indentfirst} % indenta primeiro paragráfo após título
+\usepackage{setspace} % pacote para alterar espaçamento entre linhas
+%\setlength{\parindent}{1cm} % define o tamanho da indentação
+%\setlength{\parskip}{0.3cm} % define o espaçamento vertical entre parágrafos
+\usepackage[top = 2cm, left = 2cm, bottom = 2cm, right = 2cm]{geometry} % define as margens do documento
+\usepackage{fancyhdr} % pacote para numeração de páginas
+
+\usepackage{xcolor}
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+% Configurando layout para mostrar codigos Java
+\usepackage{listings}
+\lstset{
+	language=Java,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{jpurple}\bfseries,
+	stringstyle=\color{red},
+	commentstyle=\color{verde},
+	morecomment=[s][\color{blue}]{/**}{*/},
+	extendedchars=true,
+	showspaces=false,
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\tiny,
+	breaklines=true,
+	backgroundcolor=\color{cyan!10},
+	breakautoindent=true,
+	captionpos=b,
+	xleftmargin=0pt,
+	tabsize=4
+}
+\pagestyle{empty}
+
+\begin{document}
+	
+\title{\textbf{{\Huge Notas em Computação Quântica}}} % Título
+\author{\textbf{{\Large Ricardo Alvarenga}}} % Autor
+\date{\textbf{{\Large 2024}}} % Data
+\maketitle % Criar
+\thispagestyle{empty} % remove número da página
+\newpage
+
+\setcounter{page}{1} % reset contador de página
+\pagenumbering{Roman}
+\tableofcontents % cria sumário
+\pagestyle{fancy}
+\fancyfoot[C]{\thepage} % Adiciona o número da página no centro do rodapé
+\newpage
+
+\setcounter{page}{1} % reset contador de página
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\fancyfoot[C]{\thepage}
+
+\section{Álgebra Linear}
+\subsection{Espaço Vetorial}
+
+
+
+	
+\end{document}
