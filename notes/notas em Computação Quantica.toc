@@ -7,7 +7,7 @@
 \contentsline {subsubsection}{\numberline {1.1.4}Como colocar um vetor no plano \( \mathbf {R}^{3} \)(x, y, z)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.5}Tipos de Vetores}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.6}Igualdade de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.7}Soma e Multiplicação por Coeficiente dos Vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.7}Subtração de Vetores}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.8}Produto Escalar dos Vetores (Multiplicação)}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.9}Módulo de Um Vetor}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.10}Ângulo de Dois Vetores}{3}{}%
