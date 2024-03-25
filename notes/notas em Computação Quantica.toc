@@ -8,8 +8,9 @@
 \contentsline {subsubsection}{\numberline {1.1.5}Tipos de Vetores}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.6}Igualdade de Vetores}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.7}Subtração de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.8}Produto Escalar dos Vetores (Multiplicação)}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.9}Módulo de Um Vetor}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.10}Ângulo de Dois Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.11}Paralelismo e Ortogonalidade de Dois Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.12}Projeção Ortogonal Entre Dois Vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.8}Soma de Vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.9}Produto Escalar dos Vetores (Multiplicação)}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.10}Módulo de Um Vetor}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.11}Ângulo de Dois Vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.12}Paralelismo e Ortogonalidade de Dois Vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.13}Projeção Ortogonal Entre Dois Vetores}{4}{}%
