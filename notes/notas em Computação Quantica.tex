@@ -71,6 +71,8 @@
 
 % \twocolumn  % Inicia o ambiente de duas colunas
 
+\onehalfspacing % espaçamento de 1,5 entre linhas
+
 \section{Álgebra Linear}
 
 \subsection{Vetores}
@@ -116,9 +118,9 @@ Um vetor \( \mathbf{R}^{4} \) é indicado da seguinte forma: \( \mathbf{R}^{4} (
 
 \subsubsection{Como colocar um vetor no plano \( \mathbf{R}^{3} \)(x, y, z)}
 
-Vetor \(u = (2,4,3)\)
+Veja na figura \ref{fig:vetor r3} o vetor \(u = (2,4,3)\).
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{figuras/R3}
 	\caption[Vetor em \( \mathbf{R}^{3} \)]{Vetor em \( \mathbf{R}^{3} \)}
@@ -127,48 +129,57 @@ Vetor \(u = (2,4,3)\)
 
 \subsubsection{Tipos de Vetores}
 
+\singlespacing
 \begin{itemize}
 	\item Vetor Nulo: Todos valores iguais a zero. Ex: \(v = (0,0,0)\)
 	\item Vetor simétrico ou oposto: Ocorre quando dois vetores são opostos e contêm o mesmo módulo e mesma direção. Ex: \(v = (x,y), -v = (-x,-y)\)
 	\item Vetor unitário: Possui módulo (tamanho) igual a 1. \(|v| = 1\)
 	\item Vetores colineares ou paralelos: Ocorrem quando dois vetores tiverem a mesma direção, na mesma reta ou retas paralelas.
 	\item Vetores coplanares: Quando dois vetores fazem parte de um mesmo plano.
-		
 \end{itemize}
+\onehalfspacing
+\pagebreak
 
 \subsubsection{Igualdade de Vetores}
 
 Dois vetores serão iguais se: 
 
+\singlespacing
 \begin{itemize}
 	\item \(x_{1} = x_{2}\)
 	\item \(y_{1} = y_{2}\)
 	\item \(z_{1} = z_{2}\) vetores em \(R^{3}\)
 	\item \(w_{1} = w_{2}\) vetores em \(R^{4}\)
 \end{itemize}
+\onehalfspacing
 
 \(u = (3, x + 4)\) \(v = (3, 8)\) se \(x = 4\) os vetores serão iguais.
-\\
 
-Sejam: \(u = (x-1, 3)\), \(v = (3, 2y-1)\). Determine o valor de \(x\) e \(y\) para que \(u = v\).\\
+Sejam: \(u = (x-1, 3)\), \(v = (3, 2y-1)\). Determine o valor de \(x\) e \(y\) para que \(u = v\).
 
 \(x = 4\), \(y = 2\)
 
+\subsubsection{Soma de Vetores}
+
+Para realizar a soma de dois vetores temos que efetuar a soma de cada elemento com seu correspondente.
+
+Exemplo:
+
+\(u = (2, 3)\), \(v = (5, 6)\)
+
+\(u + v = (7, 9)\)
+
 \subsubsection{Subtração de Vetores}
 
-\(A = (-1, 2)\)   \(B = (2,1)\)\\
+\(A = (-1, 2)\)   \(B = (2,1)\). \(v = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
 
-\(v = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:\\
+\(B - A = (2, 1) - ( -1, 2) = (3, -1)\). Que resulta no vetor \(t = (3, -1)\), conforme figura \ref{fig:subtracaovetores01}.
 
-\(B - A = (2, 1) - ( -1, 2) = (3, -1)\)\\
+Outro exemplo: Dois vetores \(u = (-1, 3)\) e \(v = (10, 20)\), a subtração \(u - v\) resulta em \((-11, -17)\).
 
-Que resulta no vetor \(t = (3, -1)\), conforme figura \ref{fig:subtracaovetores01}.\\
+Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\)\cite{lipschutz-algebra}: \(u=(a_{1}, a_{2},...,a_{n})\) e \(v=(b_{1}, b_{2},...,b_{n})\)
 
-Outro exemplo: Dois vetores \(u = (-1, 3)\) e \(v = (10, 20)\), a subtração \(u - v\) resulta em \((-11, -17)\).\\
-
-Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\)\cite{lipschutz-algebra}: \(u=(u_{1}, u_{2},...,u_{n})\) e \(v=(v_{1}, v_{2},...,v_{n})\)
-
-\(u-v = (u_{1} - v_{1}, u_{2}-v_{2},...,u_{n}-v_{n})\).
+\(u-v = (a_{1} - b_{1}, a_{2}-b_{2},...,a_{n}-b_{n})\).
 
 \begin{figure}
 	\centering
@@ -177,18 +188,18 @@ Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\)\cite{lipschutz-algebra}: \(u=
 	\label{fig:subtracaovetores01}
 \end{figure}
 
-\pagebreak
-\subsubsection{Soma de Vetores}
+\subsubsection{Multiplicação de Dois Vetores (Produto Escalar)}
 
-Assim como na subtração, temos que efetuar a soma de cada elemento com seu correspondente.\\
+Assim como na soma e subtração de vetores, podemos multiplicar vetores. O nome correto deste tipo de operação é \textit{Produto Escalar}.
 
-Exemplo:\\
+Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\): \(u=(a_{1}, a_{2},...,a_{n})\) e \(v=(b_{1}, b_{2},...,b_{n})\)
 
-\(u = (2, 3)\), \(v = (5, 6)\)\\
+\(u*v = (a_{1} * a_{2} + b_{1} * b_{2} ,..., + a_{n} * b_{n})\).
 
-\(u + v = (7, 9)\)\\
+Exemplo: \(u = (1,2)\), \(v = (5, 3)\)
+Então: \(u*v = (1, 2, 3, 4) * (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
 
-\subsubsection{Produto Escalar dos Vetores (Multiplicação)}
+
 \subsubsection{Módulo de Um Vetor}
 \subsubsection{Ângulo de Dois Vetores}
 \subsubsection{Paralelismo e Ortogonalidade de Dois Vetores}

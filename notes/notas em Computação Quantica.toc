@@ -5,12 +5,12 @@
 \contentsline {subsubsection}{\numberline {1.1.2}Vetores com três dimensões - \( \mathbf {R}^{3} \)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.3}Vetores com \textit {n} dimensões - \( \mathbf {R}^{n} \)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.4}Como colocar um vetor no plano \( \mathbf {R}^{3} \)(x, y, z)}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.5}Tipos de Vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.5}Tipos de Vetores}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.6}Igualdade de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.7}Subtração de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.8}Soma de Vetores}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.9}Produto Escalar dos Vetores (Multiplicação)}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.10}Módulo de Um Vetor}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.11}Ângulo de Dois Vetores}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.12}Paralelismo e Ortogonalidade de Dois Vetores}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.13}Projeção Ortogonal Entre Dois Vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.7}Soma de Vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.8}Subtração de Vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de Dois Vetores (Produto Escalar)}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.10}Módulo de Um Vetor}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.11}Ângulo de Dois Vetores}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.12}Paralelismo e Ortogonalidade de Dois Vetores}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.13}Projeção Ortogonal Entre Dois Vetores}{5}{}%
