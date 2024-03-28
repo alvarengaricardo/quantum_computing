@@ -1,8 +1,14 @@
 \begin{thebibliography}{1}
 
 \bibitem{lipschutz-algebra}
-S.~Lipschutz.
+Seymour Lipschutz.
 \newblock {\em {\'A}lgebra linear - 2{\textordfeminine} Edição}.
 \newblock McGraw-Hill, 1972.
+
+\bibitem{anton2012algebra}
+Howard Anton and Chris Rorres.
+\newblock {\em {\'A}lgebra Linear com Aplica{\c{c}}{\~o}es -
+  10{\textordfeminine} Edição}.
+\newblock Bookman Editora, 2012.
 
 \end{thebibliography}
