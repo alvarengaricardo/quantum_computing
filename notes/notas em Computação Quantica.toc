@@ -11,3 +11,4 @@
 \contentsline {subsubsection}{\numberline {1.1.8}Subtração de Vetores}{4}{}%
 \contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de Dois Vetores (Produto Escalar)}{4}{}%
 \contentsline {subsubsection}{\numberline {1.1.10}Multiplicação por um Escalar}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.11}Módulo/Norma (Norm) de um Vetor}{5}{}%
