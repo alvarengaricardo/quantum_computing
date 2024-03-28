@@ -10,7 +10,4 @@
 \contentsline {subsubsection}{\numberline {1.1.7}Soma de Vetores}{3}{}%
 \contentsline {subsubsection}{\numberline {1.1.8}Subtração de Vetores}{4}{}%
 \contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de Dois Vetores (Produto Escalar)}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.10}Módulo de Um Vetor}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.11}Ângulo de Dois Vetores}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.12}Paralelismo e Ortogonalidade de Dois Vetores}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.13}Projeção Ortogonal Entre Dois Vetores}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.10}Multiplicação por um Escalar}{4}{}%
