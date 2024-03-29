@@ -13,7 +13,8 @@
 \usepackage{xcolor} % Definindo novas cores
 \usepackage{graphicx} % para inserir figuras
 \usepackage{float} % Força o posicionamento da figura
-
+%\usepackage{amsmath} % Este pacote é necessário para usar símbolos matemáticos
+\usepackage{gensymb} % símbolos trigonométricos
 
 
 \definecolor{verde}{rgb}{0.25,0.5,0.35}
@@ -228,8 +229,17 @@ ou de forma direta:
 
 Se \(\|u\| = 1\), temos um vetor unitário.
 
+\subsubsection{Ângulo entre dois Vetores (Ângulo $\Theta$ de dois Vetores)}
 
+Considerando dois vetores que partem do mesmo ponto, o ângulo entre eles é representado por $\Theta$. O ângulo $\Theta$ é dado por:
 
+\(cos \Theta\ = \frac{u * v}{\|u\|*\|v\|}\)
+
+Exemplo:
+
+Sendo os vetores \(u = (2,2)\) e \(v=(0, -2)\), encontre o ângulo $\Theta$:
+
+\(cos \Theta\ = \frac{u * v}{\|u\|*\|v\|} = \frac{-4}{\sqrt(8)*2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2}*\sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}} * \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
 
 % \lipsum[1-10]  % Exemplo de texto de preenchimento
 
