@@ -5,15 +5,16 @@
 \contentsline {subsubsection}{\numberline {1.1.2}Vetores com três dimensões - \( \mathbf {R}^{3} \)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.3}Vetores com \textit {n} dimensões - \( \mathbf {R}^{n} \)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.4}Como colocar um vetor no plano \( \mathbf {R}^{3} \)(x, y, z)}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.5}Tipos de Vetores}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.6}Igualdade de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.7}Soma de Vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.8}Subtração de Vetores}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de Dois Vetores (Produto Escalar)}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.10}Multiplicação por um Escalar}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.11}Módulo/Norma (Norm) de um Vetor}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.12}Ângulo entre dois Vetores (Ângulo $\Theta $ de dois Vetores)}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.13}Vetores Colineares}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.14}Ortogonalidade de Dois Vetores}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.15}Vetores Perpendiculares}{6}{}%
+\contentsline {subsubsection}{\numberline {1.1.5}Tipos de vetores}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.6}Igualdade de vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.7}Soma de vetores}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.8}Subtração de vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de dois vetores (Produto Escalar)}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.10}Multiplicação por um escalar}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.11}Módulo/Norma (Norm) de um vetor}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.12}Ângulo entre dois vetores (Ângulo $\Theta $ de dois vetores)}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.13}Vetores colineares}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.14}Ortogonalidade de dois vetores}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.15}Vetores perpendiculares}{6}{}%
+\contentsline {subsubsection}{\numberline {1.1.16}Projeção ortogonal entre dois vetores}{6}{}%
 \contentsline {section}{\numberline {2}Teste}{6}{}%

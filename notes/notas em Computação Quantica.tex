@@ -51,6 +51,13 @@
 \date{\textbf{{\Large 2024}}} % Data
 \maketitle % Criar
 \thispagestyle{empty} % oculta número da página
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figuras/wp5436123-quantum-physics-wallpapers}
+\end{figure}
+
+
 \newpage
 
 \pagestyle{fancy}
@@ -130,7 +137,7 @@ Veja na figura \ref{fig:vetor r3} o vetor \(u = (2,4,3)\).
 	\label{fig:vetor r3}
 \end{figure}
 
-\subsubsection{Tipos de Vetores}
+\subsubsection{Tipos de vetores}
 
 \singlespacing
 \begin{itemize}
@@ -143,7 +150,7 @@ Veja na figura \ref{fig:vetor r3} o vetor \(u = (2,4,3)\).
 \onehalfspacing
 \pagebreak
 
-\subsubsection{Igualdade de Vetores}
+\subsubsection{Igualdade de vetores}
 
 Dois vetores serão iguais se: 
 
@@ -162,7 +169,7 @@ Sejam: \(u = (x-1, 3)\), \(v = (3, 2y-1)\). Determine o valor de \(x\) e \(y\) p
 
 \(x = 4\), \(y = 2\)
 
-\subsubsection{Soma de Vetores}
+\subsubsection{Soma de vetores}
 
 Para realizar a soma de dois vetores temos que efetuar a soma de cada elemento com seu correspondente.
 
@@ -172,7 +179,7 @@ Exemplo:
 
 \(u + v = (7, 9)\)
 
-\subsubsection{Subtração de Vetores}
+\subsubsection{Subtração de vetores}
 
 \(A = (-1, 2)\)   \(B = (2,1)\). \(v = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
 
@@ -191,7 +198,7 @@ Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\)\cite{lipschutz-algebra}: \(u=
 	\label{fig:subtracaovetores01}
 \end{figure}
 
-\subsubsection{Multiplicação de Dois Vetores (Produto Escalar)}
+\subsubsection{Multiplicação de dois vetores (Produto Escalar)}
 
 Assim como na soma e subtração de vetores, podemos multiplicar vetores. O nome correto deste tipo de operação é \textit{Produto Escalar}.
 
@@ -202,7 +209,7 @@ Sejam \(u\) e \(v\) vetores no \( \mathbf{R}^{n}\): \(u=(a_{1}, a_{2},...,a_{n})
 Exemplo: \(u = (1,2)\), \(v = (5, 3)\)
 Então: \(u*v = (1, 2, 3, 4) * (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
 
-\subsubsection{Multiplicação por um Escalar}
+\subsubsection{Multiplicação por um escalar}
 
 Multipliacação por um escalar é multiplicar um número por um vetor.
 
@@ -214,7 +221,7 @@ Exemplo:
 
 \(u = (4, 5)\) e \(a = 2\), \(au = 2(4, 5) = (8, 10)\)
 
-\subsubsection{Módulo/Norma (Norm) de um Vetor}
+\subsubsection{Módulo/Norma (Norm) de um vetor}
 
 A norma ou módulo de um vetor é o comprimento desse vetor, que pode ser calculado por meio da distância de seu ponto final até a origem.
 
@@ -231,7 +238,7 @@ ou de forma direta:
 
 Se \(\|u\| = 1\), temos um vetor unitário.
 
-\subsubsection{Ângulo entre dois Vetores (Ângulo $\Theta$ de dois Vetores)}
+\subsubsection{Ângulo entre dois vetores (Ângulo $\Theta$ de dois vetores)}
 
 Considerando dois vetores que partem do mesmo ponto, o ângulo entre eles é representado por $\Theta$. O ângulo $\Theta$ é dado por:
 
@@ -243,7 +250,7 @@ Sendo os vetores \(u = (2,2)\) e \(v=(0, -2)\), encontre o ângulo $\Theta$:
 
 \(cos \Theta\ = \frac{u * v}{\|u\|*\|v\|} = \frac{-4}{\sqrt(8)*2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2}*\sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}} * \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
 
-\subsubsection{Vetores Colineares}
+\subsubsection{Vetores colineares}
 
 Dois vetores são colineares (paralelos), quando:
 
@@ -256,7 +263,7 @@ Exemplo: Verifique se \(u\) e \(v\) são colineares, sendo \(u = (-3, 2)\) e \(v
 
 \(\frac{-3}{6} = -\frac{1}{2}\) e \(\frac{2}{-4} = -\frac{1}{2}\) então: \(a = -\frac{1}{2}\)
 
-\subsubsection{Ortogonalidade de Dois Vetores}
+\subsubsection{Ortogonalidade de dois vetores}
 
 Considerando dois vetores coplanares (em \(R^{2}\)), eles serão ortogonais se o $\Theta$, entre eles, for 90\degree.
 
@@ -267,9 +274,24 @@ Exemplo: Verifique se os vetores \(u = (1, 2)\) e \(v = (-2, 1)\), são ortogona
 \(u * v = (1 * -2 + 2 * 1) = (-2 + 2) = 0\)
 
 
-\subsubsection{Vetores Perpendiculares}
+\subsubsection{Vetores perpendiculares}
 
 Dois vetores, em \(R^{n}\) com \(n \geq 3\), são perpendiculares entre si, se o seu produto escalar for igual a zero.
+
+\subsubsection{Projeção ortogonal entre dois vetores}
+
+A projeção ortogonal de um vetor \(v\) sobre outro vetor \(u\) é a componente de \(v\) na direção de \(u\). Essa projeção é chamada de "ortogonal" porque é perpendicular ao vetor de referência \(u\).
+
+A projeção ortogonal de \(v\) sobre \(u\), denotada por \(proj_{u}(v)\), é calculada usando a seguinte fórmula: \(proj_{u}(v) = \left( \frac{u \cdot v}{\|u\|^2} \right) u\)
+
+
+Onde:\(u * v \) é o produto escalar entre os vetores \( u \) e \( v \).
+- \( \| u \| \) é a norma (ou magnitude) do vetor \( u \).
+
+Essa fórmula nos diz que a projeção ortogonal de \( v \) sobre \( u \) é obtida multiplicando o vetor \( u \) pela fração \(\frac{u*v}{\|u\|^2}\), que é a magnitude da projeção de \(v \) na direção de \(u\).
+
+
+
 
 \section{Teste}
 
