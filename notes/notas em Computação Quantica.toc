@@ -32,5 +32,5 @@
 \contentsline {section}{\numberline {4}Livro: Introduction to Classical and Quantum Computing - Thomas G. Wong}{9}{}%
 \contentsline {subsection}{\numberline {4.1}Classical Information and Computation}{9}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}Anotações}{9}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Exercícios}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Exercícios}{10}{}%
 \contentsline {section}{\numberline {5}Teste}{10}{}%
