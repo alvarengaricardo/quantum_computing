@@ -204,10 +204,10 @@ Assim como na soma e subtração de vetores, podemos multiplicar vetores. O nome
 
 Sejam \(u\) e \(v\) vetores no \(\mathbb{R}^n\): \(u=(a_{1}, a_{2},...,a_{n})\) e \(v=(b_{1}, b_{2},...,b_{n})\)
 
-\(u*v = (a_{1} * a_{2} + b_{1} * b_{2} ,..., + a_{n} * b_{n})\).
+\(u \cdot v = (a_{1} \cdot a_{2} + b_{1} \cdot b_{2} ,..., + a_{n} \cdot b_{n})\).
 
 Exemplo: \(u = (1,2)\), \(v = (5, 3)\)
-Então: \(u*v = (1, 2, 3, 4) * (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
+Então: \(u \cdot v = (1, 2, 3, 4) \cdot (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
 
 \subsubsection{Multiplicação por um escalar}
 
@@ -215,7 +215,7 @@ Multipliacação por um escalar é multiplicar um número por um vetor.
 
 Sejam: \(t = (x_{1}, x_{2}, ..., x_{n})\) e um número \(a\)
 
-Temos: \(at = a(x_{1}, x_{2}, ..., x_{n}) = (a*x_{1}, a*x_{2}, ..., a*x_{n})\)
+Temos: \(at = a(x_{1}, x_{2}, ..., x_{n}) = (a \cdot x_{1}, a \cdot x_{2}, ..., a \cdot x_{n})\)
 
 Exemplo:
 
@@ -227,9 +227,9 @@ A norma ou módulo de um vetor é o comprimento desse vetor, que pode ser calcul
 
 A norma de \( u \) é denotada por \( \| u \| \).
 
-Considerando o vetor \(u = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{lipschutz-algebra, anton2012algebra}: \( \|u\| = \sqrt{u*u} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} \) 
+Considerando o vetor \(u = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{lipschutz-algebra, anton2012algebra}: \( \|u\| = \sqrt{u \cdot u} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} \) 
 
-Exemplo: \(v = (5, 6)\), \(\|v\| = \sqrt(v*v) = \sqrt(5,6)*(5,6) = \sqrt{61}\)
+Exemplo: \(v = (5, 6)\), \(\|v\| = \sqrt(v \cdot v) = \sqrt(5,6) \cdot (5,6) = \sqrt{61}\)
 
 ou de forma direta:
 
@@ -242,13 +242,13 @@ Se \(\|u\| = 1\), temos um vetor unitário.
 
 Considerando dois vetores que partem do mesmo ponto, o ângulo entre eles é representado por $\Theta$. O ângulo $\Theta$ é dado por:
 
-\(cos \Theta\ = \frac{u * v}{\|u\|*\|v\|}\)
+\(cos \Theta\ = \frac{u  \cdot  v}{\|u\| \cdot \|v\|}\)
 
 Exemplo:
 
 Sendo os vetores \(u = (2,2)\) e \(v=(0, -2)\), encontre o ângulo $\Theta$:
 
-\(cos \Theta\ = \frac{u * v}{\|u\|*\|v\|} = \frac{-4}{\sqrt(8)*2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2}*\sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}} * \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
+\(cos \Theta\ = \frac{u  \cdot  v}{\|u\| \cdot \|v\|} = \frac{-4}{\sqrt(8) \cdot 2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2} \cdot \sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}}  \cdot  \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
 
 \subsubsection{Vetores colineares}
 
@@ -267,11 +267,11 @@ Exemplo: Verifique se \(u\) e \(v\) são colineares, sendo \(u = (-3, 2)\) e \(v
 
 Considerando dois vetores coplanares (em \(\mathbb{R}^2\)), eles serão ortogonais se o $\Theta$, entre eles, for 90\degree.
 
-Matematicamente: \(u * v = 0\)
+Matematicamente: \(u  \cdot  v = 0\)
 
 Exemplo: Verifique se os vetores \(u = (1, 2)\) e \(v = (-2, 1)\), são ortogonais:
 
-\(u * v = (1 * -2 + 2 * 1) = (-2 + 2) = 0\)
+\(u  \cdot  v = (1  \cdot  -2 + 2  \cdot  1) = (-2 + 2) = 0\)
 
 
 \subsubsection{Vetores perpendiculares}
@@ -285,16 +285,16 @@ A projeção ortogonal de um vetor \(v\) sobre outro vetor \(u\) é a componente
 A projeção ortogonal de \(v\) sobre \(u\), denotada por \(proj_{u}(v)\), é calculada usando a seguinte fórmula: \(proj_{u}(v) = \left( \frac{u \cdot v}{\|u\|^2} \right) u\)
 
 
-Onde:\(u * v \) é o produto escalar entre os vetores \( u \) e \( v \).
+Onde:\(u  \cdot  v \) é o produto escalar entre os vetores \( u \) e \( v \).
 - \( \| u \| \) é a norma (ou magnitude) do vetor \( u \).
 
-Essa fórmula nos diz que a projeção ortogonal de \( v \) sobre \( u \) é obtida multiplicando o vetor \( u \) pela fração \(\frac{u*v}{\|u\|^2}\), que é a magnitude da projeção de \(v \) na direção de \(u\).
+Essa fórmula nos diz que a projeção ortogonal de \( v \) sobre \( u \) é obtida multiplicando o vetor \( u \) pela fração \(\frac{u \cdot v}{\|u\|^2}\), que é a magnitude da projeção de \(v \) na direção de \(u\).
 
 \subsubsection{Vetores em $\mathbb{C}^n$}
 
 Vetores em $\mathbb{C}^n$ são elementos de um espaço vetorial complexo de dimensão $n$. Nesse contexto, $n$ representa o número de componentes ou dimensões do vetor. Cada vetor pode ser representado como uma sequência de $n$ elementos complexos, ou seja, $v = (v_1, v_2, \ldots, v_n)$, onde cada $v_i$ é um número complexo. Por exemplo, um vetor em $\mathbb{C}^3$ seria representado como $v = (v_1, v_2, v_3)$, onde $v_1$, $v_2$ e $v_3$ são números complexos. Vetores em $\mathbb{C}^n$ são comumente utilizados em diversos campos da matemática e da física, especialmente na teoria dos espaços vetoriais e na mecânica quântica.
 
-
+\newpage
 \section{Física Quântica}
 
 \subsection{Ket Vectors}
@@ -362,6 +362,7 @@ Em português:
 
 - "Mecânica Quântica: Conceitos e Aplicações" por Nouredine Zettili (tradução para o português).
 
+\newpage
 \section{Tópicos de Matemática}
 
 \subsection{Números Complexos}
@@ -394,59 +395,106 @@ Quanto às operações com números complexos, elas incluem:
 
 \textbf{Potenciação e Radiciação:} A potenciação e radiciação de números complexos requerem o uso de formas polar ou exponencial dos números complexos.
 
+\newpage
 \section{Livro: Introduction to Classical and Quantum Computing - Thomas G. Wong}
 
 \subsection{Classical Information and Computation}
 
-\subsubsection{Anotações}
+\subsubsection{Bits}
 
-\begin{itemize}
-	\item Something with two states carries the smallest amount of information possible;
-	\item A bit is the smallest unit of classical information.
-\end{itemize}
+Something with two states carries the smallest amount of information possible.
 
+A bit is the smallest unit of classical information.
 
 \(11010_{2} \rightarrow\) "One one zero one zero base two"
 
-\(11010_{2} \rightarrow\ (1*2^{4}+1*2^{3}+0*2^{2}+1*2^{1}+0*2^0) = 26\)
+\(11010_{2} \rightarrow\ (1 \cdot 2^{4}+1 \cdot 2^{3}+0 \cdot 2^{2}+1 \cdot 2^{1}+0 \cdot 2^0) = 26\)
 
 \textit{Leftmost} \(\rightarrow\) Contributes 16 to the number, \textit{most significant bit}.
 
 \textit{Rightmost} \(\rightarrow\) Contribute 1 to the number, \textit{least significant bit}.
 
-\(6174_{10} \rightarrow (6*10^{3}+1*10^{2}+7*10^{1}+4*10^{0})\), so each digit represents how many of each power of 10 we have.
+\(6174_{10} \rightarrow (6 \cdot 10^{3}+1 \cdot 10^{2}+7 \cdot 10^{1}+4 \cdot 10^{0})\), so each digit represents how many of each power of 10 we have.
 
-
-
-\subsubsection{Exercícios}
+\subsubsection{Bits - Exercises}
 
 \textbf{Exercise 1.1:} How many possible states do: (a) four coins have? (b) five coins?
 
-\begin{enumerate}
-	\item[(a)] One coin \(\rightarrow 2^{n} \rightarrow 2^{4} = 16\)
-	\item[(b)] Five coins \(\rightarrow 2^{n} \rightarrow 2^{5} = 32\)
-\end{enumerate}
+\textbf{Answer:}
+
+(a) One coin \(\rightarrow 2^{n} \rightarrow 2^{4} = 16\)
+
+(b) Five coins \(\rightarrow 2^{n} \rightarrow 2^{5} = 32\)\\
 
 \textbf{Exercise 1.2:} How many possible states do (a) four dice have? (b) five dice?
 
-\begin{enumerate}
-	\item[(a)] Four dice \(\rightarrow 6^{n} \rightarrow 6^{4} = 1.296\)
-	\item[(b)] Five dice \(\rightarrow 6^{n} \rightarrow 6^{5} = 7.776\)
-\end{enumerate}
+\textbf{Answer:}
+
+(a) Four dice \(\rightarrow 6^{n} \rightarrow 6^{4} = 1.296\)
+
+(b) Five dice \(\rightarrow 6^{n} \rightarrow 6^{5} = 7.776\)\\
 
 \textbf{Exercise 1.3:} Some board games use a twenty-sided die. How many twenty-sided dice does it take to encode the seven colors of the rainbow?
 
-\textbf{Answer:} 1
+\textbf{Answer:} 1\\
 
 \textbf{Exercise 1.4:} How many (a) coins and (b) six-sided dice would it take to represent the 26 letters of the English alphabet?
 
-\begin{enumerate}
-	\item[(a)] 5
-	\item[(b)] 2
-\end{enumerate}
+\textbf{Answer:}
+
+(a) 5
+(b) 2\\
+
+\textbf{Exercise 1.5:} Convert the following binary numbers (base 2) to decimal numbers (base 10): (a) 101112. (b) 110010102.
+
+\textbf{Answer:}
+
+(a) \(10111_{2} = 1 \cdot 2^{4} + 0 \cdot 2^{3} + 1 \cdot 2^{2} + 1 \cdot 2^{1} + 1 \cdot 2^{0} = 16 + 0 + 4 + 2 + 1 = 23_{10} \)
+
+(b) \(11001010_{2} = 1 \cdot 2^{7} + 1 \cdot 2^{6} + 0 + 0 + 1 \cdot 2^{3} + 0 + 1 \cdot 2^{1} + 0 = 128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202_{10}\)\\
+
+\textbf{Exercise 1.6:} Convert the following decimal numbers (base 10) to binary numbers (base 2): (a) 42 (b) 495.
+
+\textbf{Answer:}
+
+(a) \(42_{10} = 101010_{2}\)
+
+(b) \(495_{10} = 111101111_{2}\)\\
+
+\textbf{Exercise 1.7:} Base-16, commonly called hexadecimal, is another frequently used number system in computing. The sixteen digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. So the letter A is ten in decimal, B is eleven in decimal, ..., and F is fifteen in decimal. For example, converting the hexadecimal number F2A to decimal,
+
+\(F2A = 162 \cdot F + 161 \cdot 2 + 160 \cdot A\)
+
+\(\quad\quad\,\,= 256 \cdot 15 + 16 \cdot 2 + 1 \cdot 10\)
+
+\(\quad\quad\,\,= 3840 + 32 + 10\)
+
+\(\quad\quad\,\,= 3882\)
+
+(a) Convert the hexadecimal number 3B7C to a decimal (base 10) number.
+
+(b) Convert the hexadecimal number FF to a binary (base 2) number. (So two hexadecimal numbers can represent eight bits.)
+
+(c) HTML uses hexadecimal to encode colors using the RGB color model. RGB stands for the (additive) primary colors red, green, and blue, and by adding together different amounts of their light, the other colors can be produced. [From painting, you may be familiar with the (subtractive) primary colors, red, yellow, and blue.] The amount of red, green, and blue ranges from 0 to 255, with 0 being none of the color, and 255 being the full amount of the color. This range of 0 to 255 corresponds to the hexadecimal numbers 00 through FF. An HTML color code uses six hexadecimal numbers, like FA10E4, with the left two digits (FA) corresponding to the amount of red, the middle two digits (10) corresponding to the amount of green, and the right two digits (E4) corresponding to the amount of blue. This particular mix of colors results in a bright pink. Convert the hexadecimal numbers FA, 10, and E4 to decimal.
+
+\textbf{Exercise 1.8:} Negative numbers can be encoded in binary using two’s complement, where the most significant bit is negative, while the remaining bits are positive. For example, in two’s complement, 
+
+\(11010_{2} = 1 \cdot (-2^{4}) + 1 \cdot 2^{3} + 0 \cdot 2^{2} + 1 \cdot 2^{1} + 0 \cdot 2^{0}\)
+
+\(\quad\quad\quad\,= 1 \cdot (-16) + 1 \cdot 8 + 0 \cdot 4 + 1 \cdot 2 + 0 \cdot 1\)
+
+\(\quad\quad\quad\,= - 6 \)
+
+Convert each of the following two’s complement numbers to decimal:
+
+\begin{center}
+	\includegraphics[width=0.5\linewidth]{figuras/exe_1-8}
+\end{center}
 
 
 
+
+\newpage
 \section{Teste}
 
 O estado quântico $\ket{\psi}$ é representado como um ket vector.
