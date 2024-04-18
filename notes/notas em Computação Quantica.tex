@@ -3,6 +3,7 @@
 %\usepackage[T1]{fontenc}
 \usepackage[brazil]{babel} % nomes das estruturas em pt-br
 %\usepackage{hyperref}
+\usepackage{csquotes} % gerenciamento de aspas
 \usepackage{indentfirst} % indenta primeiro paragráfo após título
 \usepackage{setspace} % pacote para alterar espaçamento entre linhas
 %\setlength{\parindent}{1cm} % define o tamanho da indentação
@@ -87,12 +88,14 @@
 
 \subsection{Vetores}
 
+Indicaremos, nesta seção, vetores com letras minusculas em negrito \(\textbf{a, b, v, w}\) e \(\textbf{x}\), e escalares com minúsculas em itálico, como \(\textit{a, k, v, w}\) e \(\textit{x}\). Para um vetor, por exemplo, \(\textbf{v}\) com ponto inicial \(\textit{A}\) e ponto final \(\textit{B}\), usaremos\cite{anton2012algebra}: \(\textbf{v} = $\overrightarrow{\textit{AB}}$\)
+
 Vetores são seguimentos orientados (início em 0, 0) que estão sempre no plano cartesiano. Vetores são usados para representar grandezas escalares (massa, pressão, etc.) e grandezas físicas vetoriais (velocidade, força e deslocamento).
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.5\linewidth]{figuras/vetores_01}
-	\caption[Vetores \textbf{u} e \textbf{v}]{Exemplos de Vetores, \(u\) e \(v\)}
+	\caption[Vetores \textbf{u} e \textbf{v}]{Exemplos de Vetores, \(\textbf{u}\) e \(\textbf{v}\)}
 	\label{fig:vetores01}
 \end{figure}
 
@@ -102,7 +105,7 @@ Vetores são seguimentos orientados (início em 0, 0) que estão sempre no plano
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[height=.45\textheight]{figuras/vetores_02}
+	\includegraphics[height=.3\textheight]{figuras/vetores_02}
 	\caption[Vetores em \( \mathbf{R}^{2} \)]{Vetores em \(\mathbb{R}^2\)}
 	\label{fig:vetores02}
 \end{figure}
@@ -113,7 +116,7 @@ Vetores são seguimentos orientados (início em 0, 0) que estão sempre no plano
 
 \(x, y, z\) podem assumir qualquer valor em \(\mathbb{R}\).
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=0.5\linewidth]{"figuras/vetores R3"}
 	\caption[Vetores em \( \mathbf{R}^{3} \)]{Vetores em \(\mathbb{R}^3\)}
@@ -128,7 +131,7 @@ Um vetor \(\mathbb{R}^4\) é indicado da seguinte forma: \(\mathbb{R}^4 (x, y, z
 
 \subsubsection{Como plotar um vetor no plano \(\mathbb{R}^3\)}
 
-Veja na figura \ref{fig:vetor r3} o vetor \(u = (2,4,3)\).
+Veja na figura \ref{fig:vetor r3} o vetor \(\textbf{u} = (2,4,3)\).
 
 \begin{figure}
 	\centering
@@ -141,9 +144,9 @@ Veja na figura \ref{fig:vetor r3} o vetor \(u = (2,4,3)\).
 
 \singlespacing
 \begin{itemize}
-	\item Vetor Nulo: Todos valores iguais a zero. Ex: \(v = (0,0,0)\)
-	\item Vetor simétrico ou oposto: Ocorre quando dois vetores são opostos e contêm o mesmo módulo e mesma direção. Ex: \(v = (x,y), -v = (-x,-y)\)
-	\item Vetor unitário: Possui módulo (tamanho) igual a 1. \(|v| = 1\)
+	\item Vetor Nulo: Todos valores iguais a zero. Ex: \(\textbf{v} = (0,0,0)\)
+	\item Vetor simétrico ou oposto: Ocorre quando dois vetores são opostos e contêm o mesmo módulo e mesma direção. Ex: \(\textbf{v} = (x,y), \textbf{-v} = (-x,-y)\)
+	\item Vetor unitário: Possui módulo (tamanho) igual a 1. \(|\textbf{v}| = 1\)
 	\item Vetores colineares ou paralelos: Ocorrem quando dois vetores tiverem a mesma direção, na mesma reta ou retas paralelas.
 	\item Vetores coplanares: Quando dois vetores fazem parte de um mesmo plano.
 \end{itemize}
@@ -163,9 +166,9 @@ Dois vetores serão iguais se:
 \end{itemize}
 \onehalfspacing
 
-\(u = (3, x + 4)\) \(v = (3, 8)\) se \(x = 4\) os vetores serão iguais.
+\(\textbf{u} = (3, x + 4)\) \(\textbf{v} = (3, 8)\) se \(x = 4\) os vetores serão iguais.
 
-Sejam: \(u = (x-1, 3)\), \(v = (3, 2y-1)\). Determine o valor de \(x\) e \(y\) para que \(u = v\).
+Sejam: \(\textbf{u} = (x-1, 3)\), \(\textbf{v} = (3, 2y-1)\). Determine o valor de \(x\) e \(y\) para que \(\textbf{u} = \textbf{v}\).
 
 \(x = 4\), \(y = 2\)
 
@@ -175,21 +178,21 @@ Para realizar a soma de dois vetores temos que efetuar a soma de cada elemento c
 
 Exemplo:
 
-\(u = (2, 3)\), \(v = (5, 6)\)
+\(\textbf{u} = (2, 3)\), \(\textbf{v} = (5, 6)\)
 
-\(u + v = (7, 9)\)
+\(\textbf{u} + v = (7, 9)\)
 
 \subsubsection{Subtração de vetores}
 
-\(A = (-1, 2)\)   \(B = (2,1)\). \(v = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
+\(A = (-1, 2)\)   \(B = (2,1)\). \(\textbf{v} = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
 
-\(B - A = (2, 1) - ( -1, 2) = (3, -1)\). Que resulta no vetor \(t = (3, -1)\), conforme figura \ref{fig:subtracaovetores01}.
+\(B - A = (2, 1) - ( -1, 2) = (3, -1)\). Que resulta no vetor \(\textbf{t} = (3, -1)\), conforme figura \ref{fig:subtracaovetores01}.
 
-Outro exemplo: Dois vetores \(u = (-1, 3)\) e \(v = (10, 20)\), a subtração \(u - v\) resulta em \((-11, -17)\).
+Outro exemplo: Dois vetores \(\textbf{u} = (-1, 3)\) e \(\textbf{v} = (10, 20)\), a subtração \(\textbf{u} - \textbf{v}\) resulta em \((-11, -17)\).
 
-Sejam \(u\) e \(v\) vetores no \(\mathbb{R}^n\)\cite{lipschutz-algebra}: \(u=(a_{1}, a_{2},...,a_{n})\) e \(v=(b_{1}, b_{2},...,b_{n})\)
+Sejam \(\textbf{u}\) e \(\textbf{v}\) vetores no \(\mathbb{R}^n\)\cite{lipschutz-algebra}: \(\textbf{u}=(a_{1}, a_{2},...,a_{n})\) e \(\textbf{v}=(b_{1}, b_{2},...,b_{n})\)
 
-\(u-v = (a_{1} - b_{1}, a_{2}-b_{2},...,a_{n}-b_{n})\).
+\(\textbf{u}-\textbf{v} = (a_{1} - b_{1}, a_{2}-b_{2},...,a_{n}-b_{n})\).
 
 \begin{figure}
 	\centering
@@ -202,97 +205,97 @@ Sejam \(u\) e \(v\) vetores no \(\mathbb{R}^n\)\cite{lipschutz-algebra}: \(u=(a_
 
 Assim como na soma e subtração de vetores, podemos multiplicar vetores. O nome correto deste tipo de operação é \textit{Produto Escalar}.
 
-Sejam \(u\) e \(v\) vetores no \(\mathbb{R}^n\): \(u=(a_{1}, a_{2},...,a_{n})\) e \(v=(b_{1}, b_{2},...,b_{n})\)
+Sejam \(\textbf{u}\) e \(\textbf{v}\) vetores no \(\mathbb{R}^n\): \(\textbf{u}=(a_{1}, a_{2},...,a_{n})\) e \(\textbf{v}=(b_{1}, b_{2},...,b_{n})\)
 
-\(u \cdot v = (a_{1} \cdot a_{2} + b_{1} \cdot b_{2} ,..., + a_{n} \cdot b_{n})\).
+\(\textbf{u} \cdot \textbf{v }= (a_{1} \cdot a_{2} + b_{1} \cdot b_{2} ,..., + a_{n} \cdot b_{n})\).
 
-Exemplo: \(u = (1,2)\), \(v = (5, 3)\)
-Então: \(u \cdot v = (1, 2, 3, 4) \cdot (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
+Exemplo: \(\textbf{u} = (1,2)\), \(\textbf{v} = (5, 3)\)
+Então: \(\textbf{u} \cdot \textbf{v} = (1, 2, 3, 4) \cdot (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
 
 \subsubsection{Multiplicação por um escalar}
 
 Multipliacação por um escalar é multiplicar um número por um vetor.
 
-Sejam: \(t = (x_{1}, x_{2}, ..., x_{n})\) e um número \(a\)
+Sejam: \(\textbf{t} = (x_{1}, x_{2}, ..., x_{n})\) e um número \(\textit{a}\)
 
-Temos: \(at = a(x_{1}, x_{2}, ..., x_{n}) = (a \cdot x_{1}, a \cdot x_{2}, ..., a \cdot x_{n})\)
+Temos: \(\textit{a}\cdot\textbf{t} = \textit{a}(x_{1}, x_{2}, ..., x_{n}) = (\textit{a} \cdot x_{1}, \textit{a} \cdot x_{2}, ..., \textit{a} \cdot x_{n})\)
 
 Exemplo:
 
-\(u = (4, 5)\) e \(a = 2\), \(au = 2(4, 5) = (8, 10)\)
+\(\textbf{u} = (4, 5)\) e \(\textit{a} = 2\), \(\textit{a}\cdot\textbf{u} = 2(4, 5) = (8, 10)\)
 
 \subsubsection{Módulo/Norma (Norm) de um vetor}
 
 A norma ou módulo de um vetor é o comprimento desse vetor, que pode ser calculado por meio da distância de seu ponto final até a origem.
 
-A norma de \( u \) é denotada por \( \| u \| \).
+A norma de \( \textbf{u} \) é denotada por \( \| \textbf{u} \| \).
 
-Considerando o vetor \(u = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{lipschutz-algebra, anton2012algebra}: \( \|u\| = \sqrt{u \cdot u} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} \) 
+Considerando o vetor \(\textbf{u} = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{lipschutz-algebra, anton2012algebra}: \( \|\textbf{u}\| = \sqrt{\textbf{u} \cdot \textbf{u}} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} \) 
 
-Exemplo: \(v = (5, 6)\), \(\|v\| = \sqrt(v \cdot v) = \sqrt(5,6) \cdot (5,6) = \sqrt{61}\)
+Exemplo: \(\textbf{v} = (5, 6)\), \(\|\textbf{v}\| = \sqrt(\textbf{v} \cdot \textbf{v}) = \sqrt(5,6) \cdot (5,6) = \sqrt{61}\)
 
 ou de forma direta:
 
-\(\|v\| = \sqrt{(5^2+6^2)} = \sqrt{61}\)
+\(\|\textbf{v}\| = \sqrt{(5^2+6^2)} = \sqrt{61}\)
 
 
-Se \(\|u\| = 1\), temos um vetor unitário.
+Se \(\|\textbf{u}\| = 1\), temos um vetor unitário.
 
 \subsubsection{Ângulo entre dois vetores (Ângulo $\Theta$ de dois vetores)}
 
 Considerando dois vetores que partem do mesmo ponto, o ângulo entre eles é representado por $\Theta$. O ângulo $\Theta$ é dado por:
 
-\(cos \Theta\ = \frac{u  \cdot  v}{\|u\| \cdot \|v\|}\)
+\(cos \Theta\ = \frac{\textbf{u}  \cdot  \textbf{v}}{\|\textbf{u}\| \cdot \|\textbf{v}\|}\)
 
 Exemplo:
 
-Sendo os vetores \(u = (2,2)\) e \(v=(0, -2)\), encontre o ângulo $\Theta$:
+Sendo os vetores \(\textbf{u} = (2,2)\) e \(\textbf{v}=(0, -2)\), encontre o ângulo $\Theta$:
 
-\(cos \Theta\ = \frac{u  \cdot  v}{\|u\| \cdot \|v\|} = \frac{-4}{\sqrt(8) \cdot 2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2} \cdot \sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}}  \cdot  \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
+\(cos \Theta\ = \frac{\textbf{u}  \cdot  \textbf{v}}{\|\textbf{u}\| \cdot \|\textbf{v}\|} = \frac{-4}{\sqrt(8) \cdot 2} = \frac{-2}{\sqrt{8}}=\frac{-2}{\sqrt{2} \cdot \sqrt{4}}=\frac{\frac{-2}{2}}{\sqrt{2}} = \frac{-1}{\sqrt{2}} = \frac{-1}{\sqrt{2}}  \cdot  \frac{\sqrt{2}}{\sqrt{2}} = \frac{-\sqrt{2}}{2} = 135\degree\)
 
 \subsubsection{Vetores colineares}
 
 Dois vetores são colineares (paralelos), quando:
 
-\(v = (x_{1}, y_{1})\) e \(t = (x_{2}, y_{2})\)
+\(\textbf{v} = (x_{1}, y_{1})\) e \(\textbf{t} = (x_{2}, y_{2})\)
 
-\(\frac{x_{1}}{x_{2}} = \frac{y_{1}}{y_{2}} = a\)
+\(\frac{x_{1}}{x_{2}} = \frac{y_{1}}{y_{2}} = \textit{a}\)
 \\
 
-Exemplo: Verifique se \(u\) e \(v\) são colineares, sendo \(u = (-3, 2)\) e \(v=(6,-4)\)
+Exemplo: Verifique se \(\textbf{u}\) e \(\textbf{v}\) são colineares, sendo \(\textbf{u} = (-3, 2)\) e \(\textbf{v}=(6,-4)\)
 
-\(\frac{-3}{6} = -\frac{1}{2}\) e \(\frac{2}{-4} = -\frac{1}{2}\) então: \(a = -\frac{1}{2}\)
+\(\frac{-3}{6} = -\frac{1}{2}\) e \(\frac{2}{-4} = -\frac{1}{2}\) então: \(\textit{a} = -\frac{1}{2}\)
 
 \subsubsection{Ortogonalidade de dois vetores}
 
 Considerando dois vetores coplanares (em \(\mathbb{R}^2\)), eles serão ortogonais se o $\Theta$, entre eles, for 90\degree.
 
-Matematicamente: \(u  \cdot  v = 0\)
+Matematicamente: \(\textbf{u}  \cdot  \textbf{v} = 0\)
 
-Exemplo: Verifique se os vetores \(u = (1, 2)\) e \(v = (-2, 1)\), são ortogonais:
+Exemplo: Verifique se os vetores \(\textbf{u} = (1, 2)\) e \(\textbf{v} = (-2, 1)\), são ortogonais:
 
-\(u  \cdot  v = (1  \cdot  -2 + 2  \cdot  1) = (-2 + 2) = 0\)
+\(\textbf{u}  \cdot  \textbf{v} = (1  \cdot  -2 + 2  \cdot  1) = (-2 + 2) = 0\)
 
 
 \subsubsection{Vetores perpendiculares}
 
-Dois vetores, em \(\mathbb{R}^n\) com \(n \geq 3\), são perpendiculares entre si, se o seu produto escalar for igual a zero.
+Dois vetores, em \(\mathbb{R}^n\) com \(\textit{n} \geq 3\), são perpendiculares entre si, se o seu produto escalar for igual a zero.
 
 \subsubsection{Projeção ortogonal entre dois vetores}
 
-A projeção ortogonal de um vetor \(v\) sobre outro vetor \(u\) é a componente de \(v\) na direção de \(u\). Essa projeção é chamada de "ortogonal" porque é perpendicular ao vetor de referência \(u\).
+A projeção ortogonal de um vetor \(\textbf{v}\) sobre outro vetor \(\textbf{u}\) é a componente de \(\textbf{v}\) na direção de \(\textbf{u}\). Essa projeção é chamada de \enquote{ortogonal} porque é perpendicular ao vetor de referência \(\textbf{u}\).
 
-A projeção ortogonal de \(v\) sobre \(u\), denotada por \(proj_{u}(v)\), é calculada usando a seguinte fórmula: \(proj_{u}(v) = \left( \frac{u \cdot v}{\|u\|^2} \right) u\)
+A projeção ortogonal de \(\textbf{v}\) sobre \(\textbf{u}\), denotada por \(proj_{\textbf{u}}(\textbf{v})\), é calculada usando a seguinte fórmula: \(proj_{\textbf{u}}(\textbf{v}) = \left( \frac{\textbf{u} \cdot \textbf{v}}{\|\textbf{u}\|^2} \right) \textbf{u}\)
 
 
-Onde:\(u  \cdot  v \) é o produto escalar entre os vetores \( u \) e \( v \).
-- \( \| u \| \) é a norma (ou magnitude) do vetor \( u \).
+Onde:\(\textbf{u}  \cdot  \textbf{v} \) é o produto escalar entre os vetores \( \textbf{u} \) e \( \textbf{v} \).
+- \( \| \textbf{u} \| \) é a norma (ou magnitude) do vetor \( \textbf{u} \).
 
-Essa fórmula nos diz que a projeção ortogonal de \( v \) sobre \( u \) é obtida multiplicando o vetor \( u \) pela fração \(\frac{u \cdot v}{\|u\|^2}\), que é a magnitude da projeção de \(v \) na direção de \(u\).
+Essa fórmula nos diz que a projeção ortogonal de \( \textbf{v} \) sobre \( \textbf{u} \) é obtida multiplicando o vetor \( \textbf{u} \) pela fração \(\frac{\textbf{u} \cdot \textbf{v}}{\|\textbf{u}\|^2}\), que é a magnitude da projeção de \(\textbf{v} \) na direção de \(\textbf{u}\).
 
 \subsubsection{Vetores em $\mathbb{C}^n$}
 
-Vetores em $\mathbb{C}^n$ são elementos de um espaço vetorial complexo de dimensão $n$. Nesse contexto, $n$ representa o número de componentes ou dimensões do vetor. Cada vetor pode ser representado como uma sequência de $n$ elementos complexos, ou seja, $v = (v_1, v_2, \ldots, v_n)$, onde cada $v_i$ é um número complexo. Por exemplo, um vetor em $\mathbb{C}^3$ seria representado como $v = (v_1, v_2, v_3)$, onde $v_1$, $v_2$ e $v_3$ são números complexos. Vetores em $\mathbb{C}^n$ são comumente utilizados em diversos campos da matemática e da física, especialmente na teoria dos espaços vetoriais e na mecânica quântica.
+Vetores em $\mathbb{C}^n$ são elementos de um espaço vetorial complexo de dimensão $n$. Nesse contexto, $n$ representa o número de componentes ou dimensões do vetor. Cada vetor pode ser representado como uma sequência de $n$ elementos complexos, ou seja, $\textbf{v} = (v_1, v_2, \ldots, v_n)$, onde cada $v_i$ é um número complexo. Por exemplo, um vetor em $\mathbb{C}^3$ seria representado como $\textbf{v} = (v_1, v_2, v_3)$, onde $v_1$, $v_2$ e $v_3$ são números complexos. Vetores em $\mathbb{C}^n$ são comumente utilizados em diversos campos da matemática e da física, especialmente na teoria dos espaços vetoriais e na mecânica quântica.
 
 \newpage
 \section{Física Quântica}
