@@ -7,17 +7,18 @@
 \contentsline {subsubsection}{\numberline {1.1.4}Como plotar um vetor no plano \(\mathbb {R}^3\)}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.5}Tipos de vetores}{2}{}%
 \contentsline {subsubsection}{\numberline {1.1.6}Igualdade de vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.7}Soma de vetores}{3}{}%
-\contentsline {subsubsection}{\numberline {1.1.8}Subtração de vetores}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.9}Multiplicação de dois vetores (Produto Escalar)}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.10}Multiplicação por um escalar}{4}{}%
-\contentsline {subsubsection}{\numberline {1.1.11}Módulo/Norma (Norm) de um vetor}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.12}Ângulo entre dois vetores (Ângulo $\Theta $ de dois vetores)}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.13}Vetores colineares}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.14}Ortogonalidade de dois vetores}{5}{}%
-\contentsline {subsubsection}{\numberline {1.1.15}Vetores perpendiculares}{6}{}%
-\contentsline {subsubsection}{\numberline {1.1.16}Projeção ortogonal entre dois vetores}{6}{}%
-\contentsline {subsubsection}{\numberline {1.1.17}Vetores em $\mathbb {C}^n$}{6}{}%
+\contentsline {subsection}{\numberline {1.2}Componentes de um vetor}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Soma de vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Subtração de vetores}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Multiplicação de dois vetores (Produto Escalar)}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Multiplicação por um escalar}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Módulo/Norma (Norm) de um vetor}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.6}Ângulo entre dois vetores (Ângulo $\Theta $ de dois vetores)}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.7}Vetores colineares}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.8}Ortogonalidade de dois vetores}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.9}Vetores perpendiculares}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.10}Projeção ortogonal entre dois vetores}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.11}Vetores em $\mathbb {C}^n$}{6}{}%
 \contentsline {section}{\numberline {2}Física Quântica}{7}{}%
 \contentsline {subsection}{\numberline {2.1}Ket Vectors}{7}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}Operações com Ket Vectors}{7}{}%
