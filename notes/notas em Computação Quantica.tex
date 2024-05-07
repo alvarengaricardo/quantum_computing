@@ -18,6 +18,7 @@
 \usepackage{gensymb} % símbolos trigonométricos
 \usepackage{braket} % notações em álgebra "quântica"
 \usepackage{amssymb} % Para acessar os símbolos do AMS
+\usepackage{amsmath} % equações
 
 
 \definecolor{verde}{rgb}{0.25,0.5,0.35}
@@ -88,7 +89,8 @@
 
 \subsection{Vetores}
 
-Indicaremos, nesta seção, vetores com letras minusculas em negrito \(\textbf{a, b, v, w}\) e \(\textbf{x}\), e escalares com minúsculas em itálico, como \(\textit{a, k, v, w}\) e \(\textit{x}\). Para um vetor, por exemplo, \(\textbf{v}\) com ponto inicial \(\textit{A}\) e ponto final \(\textit{B}\), usaremos\cite{anton2012algebra}: \(\textbf{v} = $\overrightarrow{\textit{AB}}$\)
+Indicaremos, nesta seção, vetores com letras minúsculas em negrito $\mathbf{a, b, v, w}$ e $\mathbf{x}$, e escalares com minúsculas em itálico, como $\textit{a, k, v, w}$ e $\textit{x}$. Para um vetor, por exemplo, $\mathbf{v}$ com ponto inicial $\textit{A}$ e ponto final $\textit{B}$, usaremos \cite{anton2012algebra}: $\mathbf{v} = \overrightarrow{\textit{AB}}$
+
 
 Vetores são seguimentos orientados (início em 0, 0) que estão sempre no plano cartesiano. Vetores são usados para representar grandezas escalares (massa, pressão, etc.) e grandezas físicas vetoriais (velocidade, força e deslocamento).
 
@@ -174,9 +176,11 @@ Sejam: \(\textbf{u} = (x-1, 3)\), \(\textbf{v} = (3, 2y-1)\). Determine o valor 
 
 \subsection{Componentes de um vetor}
 
-Considere um vetor \(\textbf{v} = $\overrightarrow{P_{1}P_{2}}$\), então possui ponto inicial \(P_{1}(x_{1}, y_{1})\) e ponto final \(P_{2}(x_{2}, y_{2})\). Os componentes deste vetor são dados pela fórmula\cite{anton2012algebra}: 
+Considere um vetor \(\textbf{v} = \overrightarrow{P_{1}P_{2}}\), então possui ponto inicial \(P_{1}(x_{1}, y_{1})\) e ponto final \(P_{2}(x_{2}, y_{2})\). Os componentes deste vetor são dados pela fórmula\cite{anton2012algebra}: 
 
-\($\overrightarrow{P_{1}P_{2}}$ = (x_{2}-x_{1}, y_{2} - y_{1})\)
+\begin{equation}
+\overrightarrow{P_{1}P_{2}} = (x_{2}-x_{1}, y_{2} - y_{1})
+\end{equation}
 
 Que corresponde ao vetor \(\textbf{v}\) com origem em \((0, 0)\).
 
@@ -192,7 +196,7 @@ Exemplo:
 
 \subsubsection{Subtração de vetores}
 
-\(A = (-1, 2)\)   \(B = (2,1)\). \(\textbf{v} = $\overrightarrow{AB}$\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
+\(A = (-1, 2)\)   \(B = (2,1)\). \(\textbf{v} = \overrightarrow{AB}\) o vetor está "perdido" no plano cartesiano. Para corrigir isso, realizamos a subtração:
 
 \(B - A = (2, 1) - ( -1, 2) = (3, -1)\). Que resulta no vetor \(\textbf{t} = (3, -1)\), conforme figura \ref{fig:subtracaovetores01}.
 
@@ -215,7 +219,9 @@ Assim como na soma e subtração de vetores, podemos multiplicar vetores. O nome
 
 Sejam \(\textbf{u}\) e \(\textbf{v}\) vetores no \(\mathbb{R}^n\): \(\textbf{u}=(a_{1}, a_{2},...,a_{n})\) e \(\textbf{v}=(b_{1}, b_{2},...,b_{n})\)
 
-\(\textbf{u} \cdot \textbf{v }= (a_{1} \cdot a_{2} + b_{1} \cdot b_{2} ,..., + a_{n} \cdot b_{n})\).
+\begin{equation}
+\textbf{u} \cdot \textbf{v }= (a_{1} \cdot a_{2} + b_{1} \cdot b_{2} ,..., + a_{n} \cdot b_{n}).
+\end{equation}
 
 Exemplo: \(\textbf{u} = (1,2)\), \(\textbf{v} = (5, 3)\)
 Então: \(\textbf{u} \cdot \textbf{v} = (1, 2, 3, 4) \cdot (5, 3, 1, 4) = (5 + 6 + 3 + 16) = 30\)
@@ -226,7 +232,11 @@ Multipliacação por um escalar é multiplicar um número por um vetor.
 
 Sejam: \(\textbf{t} = (x_{1}, x_{2}, ..., x_{n})\) e um número \(\textit{a}\)
 
-Temos: \(\textit{a}\cdot\textbf{t} = \textit{a}(x_{1}, x_{2}, ..., x_{n}) = (\textit{a} \cdot x_{1}, \textit{a} \cdot x_{2}, ..., \textit{a} \cdot x_{n})\)
+Temos:
+
+\begin{equation}
+\textit{a}\cdot\textbf{t} = \textit{a}(x_{1}, x_{2}, ..., x_{n}) = (\textit{a} \cdot x_{1}, \textit{a} \cdot x_{2}, ..., \textit{a} \cdot x_{n})
+\end{equation}
 
 Exemplo:
 
@@ -238,7 +248,11 @@ A norma ou módulo de um vetor é o comprimento desse vetor, que pode ser calcul
 
 A norma de \( \textbf{u} \) é denotada por \( \| \textbf{u} \| \).
 
-Considerando o vetor \(\textbf{u} = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{lipschutz-algebra, anton2012algebra}: \( \|\textbf{u}\| = \sqrt{\textbf{u} \cdot \textbf{u}} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} \) 
+Considerando o vetor \(\textbf{u} = (a_{1}, a_{2}, ..., a_{n})\), calculamos sua norma, ou módulo, da seguinte forma\cite{anton2012algebra, lipschutz-algebra}:
+
+\begin{equation}
+\|\textbf{u}\| = \sqrt{\textbf{u} \cdot \textbf{u}} = \sqrt{a_{1}^2 + a_{2}^2 + ... + a_{n}^2} 
+\end{equation}
 
 Exemplo: \(\textbf{v} = (5, 6)\), \(\|\textbf{v}\| = \sqrt(\textbf{v} \cdot \textbf{v}) = \sqrt(5,6) \cdot (5,6) = \sqrt{61}\)
 
@@ -252,9 +266,9 @@ Se \(\|\textbf{u}\| = 1\), temos um vetor unitário.
 \subsubsection{Ângulo entre dois vetores (Ângulo $\Theta$ de dois vetores)}
 
 Considerando dois vetores que partem do mesmo ponto, o ângulo entre eles é representado por $\Theta$. O ângulo $\Theta$ é dado por:
-
-\(cos \Theta\ = \frac{\textbf{u}  \cdot  \textbf{v}}{\|\textbf{u}\| \cdot \|\textbf{v}\|}\)
-
+\begin{equation}
+cos \Theta\ = \frac{\textbf{u}  \cdot  \textbf{v}}{\|\textbf{u}\| \cdot \|\textbf{v}\|}
+\end{equation}
 Exemplo:
 
 Sendo os vetores \(\textbf{u} = (2,2)\) e \(\textbf{v}=(0, -2)\), encontre o ângulo $\Theta$:
@@ -265,10 +279,19 @@ Sendo os vetores \(\textbf{u} = (2,2)\) e \(\textbf{v}=(0, -2)\), encontre o ân
 
 Dois vetores são colineares (paralelos), quando:
 
-\(\textbf{v} = (x_{1}, y_{1})\) e \(\textbf{t} = (x_{2}, y_{2})\)
 
-\(\frac{x_{1}}{x_{2}} = \frac{y_{1}}{y_{2}} = \textit{a}\)
-\\
+
+
+
+\begin{equation}
+	\begin{split}
+		\textbf{v} = (x_{1}, y_{1}) \\
+		\textbf{t} = (x_{2}, y_{2})	\\
+		\frac{x_{1}}{x_{2}} = \frac{y_{1}}{y_{2}} = \textit{a}
+	\end{split}
+\end{equation}
+
+
 
 Exemplo: Verifique se \(\textbf{u}\) e \(\textbf{v}\) são colineares, sendo \(\textbf{u} = (-3, 2)\) e \(\textbf{v}=(6,-4)\)
 
@@ -278,7 +301,10 @@ Exemplo: Verifique se \(\textbf{u}\) e \(\textbf{v}\) são colineares, sendo \(\
 
 Considerando dois vetores coplanares (em \(\mathbb{R}^2\)), eles serão ortogonais se o $\Theta$, entre eles, for 90\degree.
 
-Matematicamente: \(\textbf{u}  \cdot  \textbf{v} = 0\)
+Matematicamente:
+\begin{equation}
+	\textbf{u}  \cdot  \textbf{v} = 0
+\end{equation}
 
 Exemplo: Verifique se os vetores \(\textbf{u} = (1, 2)\) e \(\textbf{v} = (-2, 1)\), são ortogonais:
 
@@ -293,7 +319,10 @@ Dois vetores, em \(\mathbb{R}^n\) com \(\textit{n} \geq 3\), são perpendiculare
 
 A projeção ortogonal de um vetor \(\textbf{v}\) sobre outro vetor \(\textbf{u}\) é a componente de \(\textbf{v}\) na direção de \(\textbf{u}\). Essa projeção é chamada de \enquote{ortogonal} porque é perpendicular ao vetor de referência \(\textbf{u}\).
 
-A projeção ortogonal de \(\textbf{v}\) sobre \(\textbf{u}\), denotada por \(proj_{\textbf{u}}(\textbf{v})\), é calculada usando a seguinte fórmula: \(proj_{\textbf{u}}(\textbf{v}) = \left( \frac{\textbf{u} \cdot \textbf{v}}{\|\textbf{u}\|^2} \right) \textbf{u}\)
+A projeção ortogonal de \(\textbf{v}\) sobre \(\textbf{u}\), denotada por \(proj_{\textbf{u}}(\textbf{v})\), é calculada usando a seguinte fórmula:
+\begin{equation}
+proj_{\textbf{u}}(\textbf{v}) = \left( \frac{\textbf{u} \cdot \textbf{v}}{\|\textbf{u}\|^2} \right) \textbf{u}
+\end{equation} 
 
 
 Onde:\(\textbf{u}  \cdot  \textbf{v} \) é o produto escalar entre os vetores \( \textbf{u} \) e \( \textbf{v} \).

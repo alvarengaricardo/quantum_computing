@@ -14,24 +14,24 @@
 \contentsline {subsubsection}{\numberline {1.2.4}Multiplicação por um escalar}{5}{}%
 \contentsline {subsubsection}{\numberline {1.2.5}Módulo/Norma (Norm) de um vetor}{5}{}%
 \contentsline {subsubsection}{\numberline {1.2.6}Ângulo entre dois vetores (Ângulo $\Theta $ de dois vetores)}{5}{}%
-\contentsline {subsubsection}{\numberline {1.2.7}Vetores colineares}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.7}Vetores colineares}{6}{}%
 \contentsline {subsubsection}{\numberline {1.2.8}Ortogonalidade de dois vetores}{6}{}%
 \contentsline {subsubsection}{\numberline {1.2.9}Vetores perpendiculares}{6}{}%
 \contentsline {subsubsection}{\numberline {1.2.10}Projeção ortogonal entre dois vetores}{6}{}%
-\contentsline {subsubsection}{\numberline {1.2.11}Vetores em $\mathbb {C}^n$}{6}{}%
-\contentsline {section}{\numberline {2}Física Quântica}{7}{}%
-\contentsline {subsection}{\numberline {2.1}Ket Vectors}{7}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Operações com Ket Vectors}{7}{}%
-\contentsline {subsection}{\numberline {2.2}Estados Quânticos}{7}{}%
-\contentsline {subsection}{\numberline {2.3}Espaço de Hilbert}{8}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}Livros}{8}{}%
-\contentsline {section}{\numberline {3}Tópicos de Matemática}{9}{}%
-\contentsline {subsection}{\numberline {3.1}Números Complexos}{9}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Definições}{9}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}Aplicações}{9}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}Operações}{9}{}%
-\contentsline {section}{\numberline {4}Livro: Introduction to Classical and Quantum Computing - Thomas G. Wong}{10}{}%
-\contentsline {subsection}{\numberline {4.1}Classical Information and Computation}{10}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Bits}{10}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Bits - Exercises}{10}{}%
-\contentsline {section}{\numberline {5}Teste}{13}{}%
+\contentsline {subsubsection}{\numberline {1.2.11}Vetores em $\mathbb {C}^n$}{7}{}%
+\contentsline {section}{\numberline {2}Física Quântica}{8}{}%
+\contentsline {subsection}{\numberline {2.1}Ket Vectors}{8}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Operações com Ket Vectors}{8}{}%
+\contentsline {subsection}{\numberline {2.2}Estados Quânticos}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Espaço de Hilbert}{9}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Livros}{9}{}%
+\contentsline {section}{\numberline {3}Tópicos de Matemática}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Números Complexos}{10}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Definições}{10}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Aplicações}{10}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}Operações}{10}{}%
+\contentsline {section}{\numberline {4}Livro: Introduction to Classical and Quantum Computing - Thomas G. Wong}{11}{}%
+\contentsline {subsection}{\numberline {4.1}Classical Information and Computation}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Bits}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Bits - Exercises}{11}{}%
+\contentsline {section}{\numberline {5}Teste}{14}{}%
