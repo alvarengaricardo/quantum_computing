@@ -18,7 +18,7 @@
 \contentsline {subsubsection}{\numberline {1.2.8}Ortogonalidade de dois vetores}{6}{}%
 \contentsline {subsubsection}{\numberline {1.2.9}Vetores perpendiculares}{6}{}%
 \contentsline {subsubsection}{\numberline {1.2.10}Projeção ortogonal entre dois vetores}{6}{}%
-\contentsline {subsubsection}{\numberline {1.2.11}Vetores em $\mathbb {C}^n$}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.11}Vetores em $\mathbb {C}^n$}{6}{}%
 \contentsline {section}{\numberline {2}Física Quântica}{8}{}%
 \contentsline {subsection}{\numberline {2.1}Ket Vectors}{8}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}Operações com Ket Vectors}{8}{}%
