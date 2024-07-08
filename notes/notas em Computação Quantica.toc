@@ -34,4 +34,9 @@
 \contentsline {subsection}{\numberline {4.1}Classical Information and Computation}{11}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}Bits}{11}{}%
 \contentsline {subsubsection}{\numberline {4.1.2}Bits - Exercises}{11}{}%
-\contentsline {section}{\numberline {5}Teste}{14}{}%
+\contentsline {section}{\numberline {5}Curso: Computação Quântica - Econofísico}{14}{}%
+\contentsline {section}{\numberline {6}FF-209: Fundamentos da Computação Quântica}{15}{}%
+\contentsline {subsection}{\numberline {6.1}Ementa}{15}{}%
+\contentsline {subsection}{\numberline {6.2}Bibliografia}{15}{}%
+\contentsline {subsection}{\numberline {6.3}Notas de Aula}{16}{}%
+\contentsline {section}{\numberline {7}Teste}{17}{}%
